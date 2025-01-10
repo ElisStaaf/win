@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Date & Time</title>
+<style>
+body {
+    background-color: black;
+    color: white;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.center {
+  padding: 250px 0;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btngreen {
+  background-color: black;
+  color: white;
+  border: 2px solid #04AA6D;
+}
+
+.btngreen:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.btnblue {
+  background-color: black;
+  color: white;
+  border: 2px solid #008CBA;
+}
+
+.btnblue:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="center dark">
+<button class="btn btngreen" onclick="datetime = document.getElementById('div').innerHTML = Date()">Click me to display date & time!</button>
+<div id="div"></div>
+</div>
+</body>
+</html>

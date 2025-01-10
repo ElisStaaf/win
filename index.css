@@ -1,0 +1,108 @@
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 2%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.green {
+  background-color: black;
+  color: white;
+  border: 2px solid #04AA6D;
+  transition-duration: 0.4s;
+}
+
+.green:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.blue {
+  background-color: black;
+  color: white;
+  border: 2px solid #008CBA;
+  transition-duration: 0.4s;
+}
+
+.blue:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.red {
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+  transition-duration: 0.4s;
+}
+
+.red:hover {
+  background-color: red;
+  color: white;
+}
+
+.purple {
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(97, 11, 226);
+  transition-duration: 0.4s;
+}
+
+.purple:hover {
+  background-color: rgb(97, 11, 226);
+  color: white;
+}
+
+red {
+  color: rgb(196, 42, 42);
+}
+
+green {
+  color: rgb(79, 178, 79);
+}
+
+blue {
+  color: rgb(53, 53, 149);
+}
+
+yellow {
+  color: rgb(225, 225, 70);
+}
+
+purple {
+  color: rgb(97, 11, 226);
+}
+
+comment {
+  color: rgb(91, 91, 91);
+}
+orange {
+  color: rgb(255, 111, 0);
+}

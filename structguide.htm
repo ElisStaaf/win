@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="center">
+            <h1><comment>STRUCT Tutorial, your new data manager.</comment></h1>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <h2>Introduction</h2>
+                    <p>Welcome to STRUCT, your new data manager. Have some data to keep 
+                        track of employees, projects or investors? Don't use CSV, use
+                        STRUCT! STRUCT was made in python, and managed in python, so, 
+                        let's get started!
+                    </p>
+                    <h2>Get started</h2>
+                    <p>First, download STRUCT from github. Then, and only then,
+                        can you get started. To begin, create a python file.
+                        Name it something useful, like <comment>index.py</comment>
+                        and then open it. Then, write the following:<br><br>
+                        <orange>from</orange> <blue>structs</blue> <orange>import</orange> <red>StructParser</red><br><br>
+                        NOW, you should create a STRUCT, file, it's generally
+                        good practice to name it the same as the python file,
+                        so <comment>index.struct</comment>.
+                    </p>
+                    <h2>Structure your database</h2>
+                    <p>Values in STRUCT are separated by ":". The first row should
+                        be the category of the values, for example, say that you
+                        wan't to manage employees of a small company. You would
+                        write this inside of the <comment>index.struct</comment> file:<br><br>
+                        <blue>name</blue>:<green>department</green>:<red>age</red><br>
+                        John:Sales:30<br>
+                        Jane:Marketing:28<br>
+                        Mark:Finance:35<br><br>
+                        Here, we defined three people with three
+                        different attributes: name, department and age.
+                    </p>
+                    <h2>Use your STRUCT</h2>
+                    <p>Your database is almost ready! You just need
+                        to send your STRUCT to your database! Firstly, have your database ready,
+                        for demonstration purposes, it will be named <comment>index_db.txt</comment>.
+                        Have the database ready!
+                        This is the updated <comment>index.py</comment> file:<br><br>
+                        <orange>from</orange> <blue>structs</blue> <orange>import</orange> <red>StructParser</red><br>
+                        <blue>parser</blue> = <red>StructParser</red>(<green>"index.struct"</green>)<br>
+                        <blue>parser</blue>.<red>make</red>(<green>"index_db.txt"</green>)<br><br>
+                        This will push the changes you've made to the database! Let's take a look!<br><br>
+                        <blue>name</blue>,John,Jane,Mark<br>
+                        <green>department</green>,Sales,Marketing,Finance<br>
+                        <red>age</red>,30,38,35<br>
+                        <br><br>
+                    </p>
+                    <h2>Conclusion</h2>
+                    Yeah, so STRUCT is an easy and intuitive open-source 
+                    data-manager, the YOU, (or your company) should use!
+                    Goodbye!
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

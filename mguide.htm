@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MS Guide: By Elis Staaf</title>
+<link rel="stylesheet" href="./index.css">
+</head>
+<body> 
+<div class="green center">
+<h1>MS Guide: By Elis Staaf</h1>
+</div>
+<div class="dark">
+<h3>
+MS (MochaScript) is a python-based, high level programming language made by... Me!
+MS is very similar to python, but has some differences! For example, the
+syntax is more flexible, but harder to understand. For an example:<br><br>
+<yellow>Python</yellow>: <br>HelloWorld <blue>=</blue> <green>"Hello World!"</green><br><red>print</red>(HelloWorld)<br><br>
+<yellow>MS</yellow>: <br><blue>str</blue> HelloWorld <blue><=</blue> <green>
+"Hello World!"</green><br><red>:</red> HelloWorld<br><br>Both of these programs
+print "Hello World!" to the console. To create an MS script, simply create a file
+with the ".ms" file extension. Anyways, Let's get onto the tutorial!
+</h3>
+</div>
+<div class="green center">
+<h2>Chapter 1: The basics</h2>
+</div>
+<div class="dark">
+<h3>
+Now that you've got a basic understanding of the differences
+of MS and Python, let's get onto our first keyword:
+python. I know, i know, it's ironic. But MS can actually execute python code,
+making it a superset of python, kinda?? Anyway, let me show you how to use it.
+Let's write a simple program using both MS AND the python keyword.<br><br>
+<blue>str</blue> person <blue><=</blue> <green>"Richard"</green><br>
+<red>python</red> <blue>def</blue> greet(name): 
+<red>print</red>(<green>"Hello, %s!"</green> 
+<red>%</red> name)<br><red>python</red> greet(person)<br><br><yellow>Output</yellow>:
+<br>Hello, Richard!<br><br> Buuut, if you have no prior programming experience,
+this is very hard to understand. So let's add some comments, <br>comments in MS start
+with "//". <br><br>
+<comment>// Defining a variable to represent a person.</comment><br>
+<blue>str</blue> person <blue><=</blue> <green>"Richard"</green><br><br>
+<comment>// Defining a function to greet a person, and then calling said function.</comment><br>
+<red>python</red> <blue>def</blue> greet(name): 
+<red>print</red>(<green>"Hello, %s!"</green> 
+<red>%</red> name)<br><red>python</red> greet(person)<br><br><yellow>Output</yellow>:
+<br>Hello, Richard!<br><br>Nooow, onto our SECOND keyword: ":" (or alternatively
+print) is the print function in MS. Let's use it!<br><br>
+<comment>// Prints "Hello, world!" to the console.</comment><br><red>:</red> 
+<green>"Hello, world!"</green><br><br><comment>// ALSO prints "Hello, world"
+to the console.</comment><br><red>print</red> <green>"Hello, world!"</green><br><br>
+<yellow>Output</yellow>:<br>Hello, world!<br>Hello, world!<br><br>The print function,
+ofcourse, ALSO works with variables!<br><br>
+<comment>// Prints "Hello, Bob!" to the console.</comment><br>
+<blue>str</blue> person <blue><=</blue> <green>"Bob"</green><br>
+<red>:</red> person<br><br><comment>
+// ALSO prints "Hello, Bob!" to the console.</comment><br>
+<blue>str</blue> person <blue><=</blue> <green>"Bob"</green><br>
+<red>print</red> person<br><br>
+<yellow>Output</yellow>:<br>Hello, Bob!<br>Hello, Bob!<br><br>
+Making variables in MS is easy, the syntax goes like this: <br><br>
+{<blue>type</blue>} {<blue>name</blue>} <blue><=</blue> {<blue>value</blue>}<br><br>
+In MS,assigning values to variables is done with the insert ("<=") operator.<br>
+The types in MS basically are just for readability, and they are: <br><br>
+{<blue>str</blue>},
+{<blue>int</blue>},
+{<blue>float</blue>} and
+{<blue>bool</blue>}<br><br>
+</h3>
+</div>
+<div class="green">
+<h2>
+Chapter 2: The Novice Level
+</h2>
+</div>
+<div class="dark">
+<h3>
+Nooooooow! New for MS 1.1, functions! You can easily define them by using
+the "fun" keyword, and end them by using the "end" keyword! The syntax goes
+like this:<br><br>
+<red>fun</red> {<blue>name</blue>}<br>
+<blockquote>{<blue>body</blue>}</blockquote>
+<red>end</red><br><br> You can call functions by using their name! Let's
+create a "greet" function by using MS!<br><br>
+<comment>// Define a person</comment><br>
+<blue>str</blue> person <blue><=</blue> <green>"Bob"</green><br><br>
+<comment>// Define a function to greet a person</comment><br>
+<red>fun</red> greet<br>
+<blockquote><red>:</red> "Hello, "</blockquote>
+<blockquote><red>:</red> person</blockquote>
+<red>end</red><br><br> <comment>// Call said function</comment><br>
+greet<br><br><yellow>Output</yellow>:<br> Hello, Bob
+</h3>
+</div>
+</body>
+</html>
