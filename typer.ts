@@ -1,5 +1,5 @@
 /*
-~ Typer Module - Made by Elis Stääf:
+~ Typer Module - Made by Elis Staaf:
 ~ Welcome! This is the typer module!
 ~ A powerful module for TypeScript
 ~ that adds more types. Also, if

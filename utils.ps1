@@ -1,8 +1,6 @@
 ﻿<# 
-
 .intro
 utils.py, Functions i felt were to important to lose. 
-
 #>
 
 # Variables
